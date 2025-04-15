@@ -35,6 +35,7 @@
             <li><a href="#skills" data-text="Skills">Skills</a></li>
             <li><a href="#kohli" data-text="Virat Kohli">Virat Kohli</a></li>
             <li><a href="#contact" data-text="Contact">Contact</a></li>
+            <li><a href="path/to/your-cv.pdf" target="_blank" data-text="Download CV" class="cv-link">CV</a></li>
         </ul>
     </nav>
 
@@ -59,11 +60,16 @@
                     <span class="label">Test Runs</span>
                 </div>
             </div>
-            <div class="shot-selection">
-                <button data-shot="cover-drive">Cover Drive</button>
-                <button data-shot="pull-shot">Pull Shot</button>
-                <button data-shot="flick">Wristy Flick</button>
-                <button data-shot="straight-drive">Straight Drive</button>
+            <div class="hero-actions">
+                <div class="shot-selection">
+                    <button data-shot="cover-drive">Cover Drive</button>
+                    <button data-shot="pull-shot">Pull Shot</button>
+                    <button data-shot="flick">Wristy Flick</button>
+                    <button data-shot="straight-drive">Straight Drive</button>
+                </div>
+                <a href="path/to/your-cv.pdf" target="_blank" class="btn-cv">
+                    <i class="fas fa-download"></i> Download CV
+                </a>
             </div>
         </div>
         <div class="hero-player">
@@ -86,7 +92,6 @@
             <div class="about-image">
                 <div class="player-card">
                     <div class="player-image">
-                        <!-- Replace with your image URL -->
                         <img src="prototype 3/images/profile.jpg" alt="RAKSHIT AGGARWAL">
                         <div class="player-rating">
                             <span>9.5/10</span>
@@ -132,6 +137,13 @@
                 <h3>My <span>Journey</span></h3>
                 <p>As a passionate coder and cricket enthusiast, I've always admired Virat Kohli's dedication and discipline. His approach to the game mirrors my approach to coding - with intensity, focus, and a never-give-up attitude.</p>
                 <p>My journey in technology began when my elder brother introduced me to programming. Since then, I've been on a path of continuous learning, challenging myself with complex problems and pushing my limits.</p>
+                
+                <div class="cv-download">
+                    <a href="path/to/your-cv.pdf" target="_blank" class="btn-cv">
+                        <i class="fas fa-file-pdf"></i> View Full CV
+                    </a>
+                </div>
+                
                 <div class="cricket-timeline">
                     <div class="timeline-item">
                         <div class="timeline-year">July 2024</div>
@@ -258,7 +270,6 @@
         <div class="sports-content">
             <div class="sports-card">
                 <div class="sports-image">
-                    <!-- Replace with your sports image URL -->
                     <img src="prototype 3/images/sports.jpg" alt="Sports Achievements">
                 </div>
                 <div class="sports-details">
@@ -545,6 +556,12 @@
                 <h3>Let's <span>Connect</span></h3>
                 <p>Whether you want to discuss cricket, coding, or potential opportunities, I'd love to hear from you!</p>
                 
+                <div class="cv-contact">
+                    <a href="/home/rakshit-aggarwal/Your paragraph text.mp4" target="_blank" class="btn-cv">
+                        <i class="fas fa-file-alt"></i> Download My CV
+                    </a>
+                </div>
+                
                 <div class="contact-stats">
                     <div class="stat">
                         <div class="stat-icon">
@@ -693,43 +710,43 @@
         <span style="font-weight: bold;">International Centuries:</span> 82
     </div>
 
-    <script src="script.js"></script>
-
-    <!-- Add this section to your HTML where you want the text analysis tool to appear -->
-<section class="text-analysis-section" id="text-analysis">
-    <div class="section-header">
-        <h2>Text <span>Analysis</span> Tool</h2>
-        <div class="underline"></div>
-    </div>
-    
-    <div class="text-analysis-container">
-        <div class="text-input-area">
-            <textarea id="textInput" placeholder="Enter your text here (more than 10,000 words)..."></textarea>
-            <button id="analyzeBtn">Analyze Text</button>
+    <!-- Text Analysis Section -->
+    <section class="text-analysis-section" id="text-analysis">
+        <div class="section-header">
+            <h2>Text <span>Analysis</span> Tool</h2>
+            <div class="underline"></div>
         </div>
         
-        <div class="analysis-results">
-            <div class="basic-stats">
-                <h3>Basic Statistics</h3>
-                <div id="basicStats"></div>
+        <div class="text-analysis-container">
+            <div class="text-input-area">
+                <textarea id="textInput" placeholder="Enter your text here (more than 10,000 words)..."></textarea>
+                <button id="analyzeBtn">Analyze Text</button>
             </div>
             
-            <div class="pronouns-analysis">
-                <h3>Pronouns Count</h3>
-                <div id="pronounsStats"></div>
-            </div>
-            
-            <div class="prepositions-analysis">
-                <h3>Prepositions Count</h3>
-                <div id="prepositionsStats"></div>
-            </div>
-            
-            <div class="articles-analysis">
-                <h3>Articles Count</h3>
-                <div id="articlesStats"></div>
+            <div class="analysis-results">
+                <div class="basic-stats">
+                    <h3>Basic Statistics</h3>
+                    <div id="basicStats"></div>
+                </div>
+                
+                <div class="pronouns-analysis">
+                    <h3>Pronouns Count</h3>
+                    <div id="pronounsStats"></div>
+                </div>
+                
+                <div class="prepositions-analysis">
+                    <h3>Prepositions Count</h3>
+                    <div id="prepositionsStats"></div>
+                </div>
+                
+                <div class="articles-analysis">
+                    <h3>Articles Count</h3>
+                    <div id="articlesStats"></div>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>

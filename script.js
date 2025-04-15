@@ -1077,5 +1077,30 @@ function analyzeText() {
     });
     
     document.getElementById('articlesStats').innerHTML = articlesHTML || '<p>No articles found.</p>';
+    // Add animation to CV buttons when they come into view
+const cvButtons = document.querySelectorAll('.btn-cv');
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.style.animation = 'bounce 1s ease';
+            setTimeout(() => {
+                entry.target.style.animation = '';
+            }, 1000);
+        }
+    });
+}, { threshold: 0.1 });
+
+cvButtons.forEach(button => {
+    observer.observe(button);
+});
+
+// Add click event for CV download tracking (optional)
+cvButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        // You can add analytics here if needed
+        console.log('CV download clicked');
+    });
+});
 }
 
