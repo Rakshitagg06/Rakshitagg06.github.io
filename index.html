@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myself and Number 18</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="prototype 3/images/Background.png" rel="stylesheet">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="cricket-ball"></div>
+        <div class="loading-text">Loading...</div>
+    </div>
+
+    <!-- Cricket Ball Cursor -->
+    <div class="ball-cursor">
+        <div class="ball-shadow"></div>
+    </div>
+
+    <!-- Boundary Rope Navigation -->
+    <nav class="boundary-rope-nav">
+        <div class="rope"></div>
+        <div class="stumps">
+            <div class="stump"></div>
+            <div class="stump"></div>
+            <div class="stump"></div>
+        </div>
+        <ul>
+            <li><a href="#home" data-text="Home">Home</a></li>
+            <li><a href="#about" data-text="About">About</a></li>
+            <li><a href="#education" data-text="Education">Education</a></li>
+            <li><a href="#skills" data-text="Skills">Skills</a></li>
+            <li><a href="#kohli" data-text="Virat Kohli">Virat Kohli</a></li>
+            <li><a href="#contact" data-text="Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Virat Kohli <span class="name-highlight">Tribute</span></h1>
+            <span class="batting-role">and My Portfolio</span>
+            <p class="hero-subtitle">A celebration of cricket's modern legend and my journey in tech</p>
+            <div class="typing-text"></div>
+            <div class="cricket-stats">
+                <div class="stat">
+                    <span class="number">82</span>
+                    <span class="label">Centuries</span>
+                </div>
+                <div class="stat">
+                    <span class="number">14181</span>
+                    <span class="label">ODI Runs</span>
+                </div>
+                <div class="stat">
+                    <span class="number">9230</span>
+                    <span class="label">Test Runs</span>
+                </div>
+            </div>
+            <div class="shot-selection">
+                <button data-shot="cover-drive">Cover Drive</button>
+                <button data-shot="pull-shot">Pull Shot</button>
+                <button data-shot="flick">Wristy Flick</button>
+                <button data-shot="straight-drive">Straight Drive</button>
+            </div>
+        </div>
+        <div class="hero-player">
+            <div class="kohli-silhouette"></div>
+        </div>
+        <div class="scroll-down">
+            <div class="ball"></div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="section-header">
+            <h2>About <span>Me</span></h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="about-content">
+            <div class="about-image">
+                <div class="player-card">
+                    <div class="player-image">
+                        <!-- Replace with your image URL -->
+                        <img src="prototype 3/images/profile.jpg" alt="RAKSHIT AGGARWAL">
+                        <div class="player-rating">
+                            <span>9.5/10</span>
+                            <span>Passion for Coding</span>
+                        </div>
+                    </div>
+                    <div class="player-details">
+                        <h3>About Me</h3>
+                        <div class="detail-row">
+                            <span>Name</span>
+                            <span>RAKSHIT AGGARWAL</span>
+                        </div>
+                        <div class="detail-row">
+                            <span>From</span>
+                            <span>Delhi, India</span>
+                        </div>
+                        <div class="detail-row">
+                            <span>Passion</span>
+                            <span>Coding & Cricket & Food</span>
+                        </div>
+                        <div class="detail-row">
+                            <span>Inspiration</span>
+                            <span>Elder Brother</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat">
+                                <span class="stat-number">600+</span>
+                                <span class="stat-name">Hours Coding</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">250+</span>
+                                <span class="stat-name">Problems Solved</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-name">Mini Projects</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-text">
+                <h3>My <span>Journey</span></h3>
+                <p>As a passionate coder and cricket enthusiast, I've always admired Virat Kohli's dedication and discipline. His approach to the game mirrors my approach to coding - with intensity, focus, and a never-give-up attitude.</p>
+                <p>My journey in technology began when my elder brother introduced me to programming. Since then, I've been on a path of continuous learning, challenging myself with complex problems and pushing my limits.</p>
+                <div class="cricket-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-year">July 2024</div>
+                        <div class="timeline-content">
+                            <h4>First Line of Code</h4>
+                            <p>Wrote my first "Hello World" program in C++
+                                Learned Hello World programme from CODE WITH HARRY
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">Dec 2024</div>
+                        <div class="timeline-content">
+                            <h4>Competitive Programming</h4>
+                            <p>Started solving problems on Codeforces and leetcode</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">Feb 2025</div>
+                        <div class="timeline-content">
+                            <h4>Web Development</h4>
+                            <p>Started learning web development with ISS course in FEB'25</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education-section" id="education">
+        <div class="section-header">
+            <h2>My <span>Education</span> Journey</h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="education-timeline">
+            <!-- School Education -->
+            <div class="education-card">
+                <div class="edu-image">
+                    <img src="prototype 3/images/srijan-school.png" alt="SRIJAN School" class="school-photo">
+                    <div class="edu-badge">
+                        <i class="fas fa-school"></i>
+                    </div>
+                </div>
+                <div class="edu-content">
+                    <h3>SRIJAN School</h3>
+                    <h4>Nursery to Class 12 (2008-2024)</h4>
+                    <div class="edu-stats">
+                        <div class="stat">
+                            <span class="number">97.8%</span>
+                            <span class="label">Class 10</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number">96.5%</span>
+                            <span class="label">Class 12</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number">100/100</span>
+                            <span class="label">SST, Sanskrit, Maths</span>
+                        </div>
+                    </div>
+                    <button class="btn-show-more">Show Achievements</button>
+                    <div class="achievements hidden">
+                        <ul>
+                            <li>Perfect score in 3 subjects (SST, Sanskrit, Maths)</li>
+                            <li>Consistent academic excellence throughout</li>
+                            <li>Active participation in extracurricular activities</li>
+                            <li>House captain and Sports Sec for 2 years</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coaching -->
+            <div class="education-card">
+                <div class="edu-image">
+                    <img src="prototype 3/images/vmc-pitampura.png" alt="VMC Pitampura" class="coaching-photo">
+                    <div class="edu-badge">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                </div>
+                <div class="edu-content">
+                    <h3>VMC Pitampura</h3>
+                    <h4>JEE Preparation (2022-2024)</h4>
+                    <div class="edu-stats">
+                        <div class="stat">
+                            <span class="number">AIR 1219</span>
+                            <span class="label">JEE Mains 2024</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number">AIR 4283</span>
+                            <span class="label">JEE Advanced 2024</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number">99.9+</span>
+                            <span class="label">Percentile</span>
+                        </div>
+                        <div class="stat">
+                            <span class="score">340+</span>
+                            <span class="label">BITSAT 2024</span>
+                        </div>
+                    </div>
+                    <button class="btn-show-more">Show Learnings</button>
+                    <div class="learnings hidden">
+                        <ul>
+                            <li>Mastered problem-solving techniques</li>
+                            <li>Developed strong analytical skills</li>
+                            <li>Learned time management under pressure</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sports Achievements Section -->
+    <section class="sports-section">
+        <div class="section-header">
+            <h2>Sports <span>Achievements</span></h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="sports-content">
+            <div class="sports-card">
+                <div class="sports-image">
+                    <!-- Replace with your sports image URL -->
+                    <img src="prototype 3/images/sports.jpg" alt="Sports Achievements">
+                </div>
+                <div class="sports-details">
+                    <h3>My Sports Journey</h3>
+                    <ul>
+                        <li>National Level Basketball Player</li>
+                        <li>Interstate Cricket Player</li>
+                        <li>Lawn Tennis Player</li>
+                        <li>Table Tennis Player</li>
+                        <li>School Sports Secretary</li>
+                        <li>House Captain</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+        <div class="section-header">
+            <h2>My <span>Technical</span> Arsenal</h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="skills-container">
+            <div class="skills-left">
+                <h3>Coding <span>Skills</span></h3>
+                <p>I love challenging myself with complex problems and pushing my limits. My inspiration comes from my elder brother who introduced me to the world of coding.</p>
+                
+                <div class="skill-meter-container">
+                    <div class="skill-category">
+                        <h4>Programming Languages</h4>
+                        <div class="skill-meter">
+                            <div class="skill-name">C++</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="100%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-meter">
+                            <div class="skill-name">C</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="100%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-meter">
+                            <div class="skill-name">Assembly</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-meter">
+                            <div class="skill-name">Python</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-meter">
+                            <div class="skill-name">JavaScript</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>Web Development</h4>
+                        <div class="skill-meter">
+                            <div class="skill-name">HTML/CSS</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-meter">
+                            <div class="skill-name">SQL</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-meter">
+                            <div class="skill-name">MongoDB</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-right">
+                <div class="codeforces-card">
+                    <div class="cf-header">
+                        <img src="prototype 3/images/codeforces-logo.png" alt="Codeforces">
+                        <h3>Codeforces Profile</h3>
+                    </div>
+                    <div class="cf-stats">
+                        <div class="stat">
+                            <span class="number">1230</span>
+                            <span class="label">Max Rating</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number">130+</span>
+                            <span class="label">Problems Solved</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number">Pupil</span>
+                            <span class="label">Current Rank</span>
+                        </div>
+                    </div>
+                    <a href="https://codeforces.com/profile/Rakshitagg" target="_blank" class="btn-cf">View Profile</a>
+                </div>
+
+                <div class="courses-card">
+                    <h3>Completed Courses</h3>
+                    <div class="course-bubbles">
+                        <div class="bubble" data-course="CSO">CSO</div>
+                        <div class="bubble" data-course="DSA">DSA</div>
+                        <div class="bubble" data-course="ISS">ISS</div>
+                        <div class="bubble" data-course="CPRO">CPRO</div>
+                    </div>
+                    <div class="course-details hidden" id="course-details">
+                        <!-- Will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personality Section -->
+    <section class="personality-section">
+        <div class="section-header">
+            <h2>Beyond <span>Coding</span></h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="personality-content">
+            <div class="food-passion">
+                <img src="prototype 3/images/food-lover.png" alt="Food Lover" class="food-image">
+                <div class="food-desc">
+                    <h3>Food Enthusiast</h3>
+                    <p>When I'm not coding, you'll find me exploring new cuisines and flavors. I believe good food fuels great ideas!</p>
+                    <div class="food-rating">
+                        <span>Food Passion Level:</span>
+                        <div class="stars">
+                            <i class="fas fa-utensils"></i>
+                            <i class="fas fa-utensils"></i>
+                            <i class="fas fa-utensils"></i>
+                            <i class="fas fa-utensils"></i>
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="problem-solver">
+                <div class="ps-content">
+                    <h3>Problem Solver</h3>
+                    <p>I thrive in challenging situations, whether it's a complex algorithm or a real-life problem. My approach:</p>
+                    <ol>
+                        <li>Analyze the problem thoroughly</li>
+                        <li>Break it into smaller components</li>
+                        <li>Develop systematic solutions</li>
+                        <li>Implement and optimize</li>
+                    </ol>
+                </div>
+                <img src="/home/rakshit-aggarwal/Pictures/Screenshots/Screenshot from 2025-04-15 02-40-21.png" alt="Problem Solving" class="ps-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Virat Kohli Tribute Section -->
+    <section class="kohli-section" id="kohli">
+        <div class="section-header">
+            <h2>Virat <span>Kohli</span> Tribute</h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="kohli-content">
+            <div class="kohli-stats">
+                <div class="stat-card">
+                    <div class="stat-value">82</div>
+                    <div class="stat-name">International Centuries</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">14181</div>
+                    <div class="stat-name">ODI Runs</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">9230</div>
+                    <div class="stat-name">Test Runs</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">4008</div>
+                    <div class="stat-name">T20I Runs</div>
+                </div>
+            </div>
+
+            <div class="kohli-gallery">
+                <div class="gallery-container">
+                    <div class="gallery-item" data-shot="Cover-Drive">
+                        <img src="prototype 3/images/coverdrive.png" alt="Cover Drive">
+                        <div class="shot-info">
+                            <h4>Cover Drive</h4>
+                            <p>Virat's signature shot</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-shot="Aggesive-Kohli">
+                        <img src="prototype 3/images/aggressive.png" alt="aggressive-kohli">
+                        <div class="shot-info">
+                            <h4>Aggressive-Kohli
+                            </h4>
+                            <p>Dominant against short balls</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-shot="Flick">
+                        <img src="prototype 3/images/flick.png" alt="Wristy Flick">
+                        <div class="shot-info">
+                            <h4>Wristy Flick</h4>
+                            <p>Delicate yet powerful</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-shot="Greatness">
+                        <img src="prototype 3/images/greatness.png" alt="Greatness">
+                        <div class="shot-info">
+                            <h4>Greatness</h4>
+                            <p>Pure class and timing</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="shot-preview">
+                    <div class="preview-content">
+                        <div class="shot-name">Cover Drive</div>
+                        <div class="shot-description">Virat's signature shot, elegant and powerful through the covers.</div>
+                        <div class="shot-stats">
+                            <div class="shot-stat">
+                                <span>Career Runs</span>
+                                <span>1560</span>
+                            </div>
+                            <div class="shot-stat">
+                                <span>Boundaries</span>
+                                <span>320</span>
+                            </div>
+                            <div class="shot-stat">
+                                <span>Success Rate</span>
+                                <span>92%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kohli-quotes">
+                <div class="quote active">
+                    <p>I like to be myself, and I don't pretend. For instance, I don't dress up for occasions; I am what I am.</p>
+                </div>
+                <div class="quote">
+                    <p>Self-belief and hard work will always earn you success.</p>
+                </div>
+                <div class="quote">
+                    <p>I love playing under pressure. In fact, if there's no pressure, then I'm not in the perfect zone.</p>
+                </div>
+                <div class="quote">
+                    <p>I hate losing and cricket is my life, so every time I step on the cricket field it's about doing something for my team.</p>
+                </div>
+                <div class="quote">
+                    <p>I always dreamt of holding the bat and winning games for India.</p>
+                </div>
+                <div class="quote-nav">
+                    <button data-direction="prev"><i class="fas fa-arrow-left"></i></button>
+                    <button data-direction="next"><i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="section-header">
+            <h2>Get In <span>Touch</span></h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="contact-content">
+            <div class="contact-left">
+                <h3>Let's <span>Connect</span></h3>
+                <p>Whether you want to discuss cricket, coding, or potential opportunities, I'd love to hear from you!</p>
+                
+                <div class="contact-stats">
+                    <div class="stat">
+                        <div class="stat-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h4>Email</h4>
+                            <p>rakshitagg06@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h4>Phone</h4>
+                            <p>+91 7428635608</p>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h4>Location</h4>
+                            <p>Delhi, India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-media">
+                    <h4>Follow Me</h4>
+                    <div class="social-icons">
+                        <a href="https://github.com/Rakshitagg06" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/rakshit-aggarwal-3b2114228/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://codeforces.com/profile/Rakshitagg" target="_blank"><i class="fab fa-codeforces"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-right">
+                <div class="pitch-form">
+                    <div class="pitch-lines">
+                        <div class="crease"></div>
+                        <div class="crease"></div>
+                        <div class="wicket">
+                            <div class="stump"></div>
+                            <div class="stump"></div>
+                            <div class="stump"></div>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-row">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-row">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-row">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="form-row">
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <div class="form-actions">
+                            <button type="submit" class="btn-send">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="match-summary">
+        <div class="summary-content">
+            <div class="team-logo">
+                <a href="#" class="logo">Virat <span>Kohli</span> Fan</a>
+            </div>
+            <div class="match-stats">
+                <div class="stat">
+                    <span class="number">100%</span>
+                    <span class="label">Passion</span>
+                </div>
+                <div class="stat">
+                    <span class="number">24/7</span>
+                    <span class="label">Dedication</span>
+                </div>
+                <div class="stat">
+                    <span class="number">∞</span>
+                    <span class="label">Love for Cricket</span>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/Rakshitagg06" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rakshit-aggarwal-3b2114228/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/rakshitagg2702/?next=%2F"><i class="fab fa-instagram"></i></a>
+                <a href="https://codeforces.com/profile/Rakshitagg" target="_blank"><i class="fab fa-codeforces"></i></a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Virat Kohli Tribute & Portfolio. All rights reserved.</p>
+                <p>Made with ❤️ by Rakshit Aggarwal</p>
+            </div>
+        </div>
+        <div class="stadium-audio">
+            <button class="audio-control">
+                <i class="fas fa-volume-up"></i> Stadium Sound
+            </button>
+        </div>
+    </footer>
+
+    <!-- Celebration Modal -->
+    <div class="celebration-modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h2>Welcome!</h2>
+            <p>Thanks for visiting my Virat Kohli tribute and portfolio website!</p>
+            <div class="celebration-animation">
+                <div class="confetti"></div>
+                <div class="confetti"></div>
+                <div class="confetti"></div>
+                <div class="kohli-celebration"></div>
+            </div>
+            <button class="btn-replay">Replay Celebration</button>
+        </div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <div class="theme-icon">
+            <i class="fas fa-moon"></i>
+        </div>
+    </div>
+
+    <!-- Cricket Game Button -->
+    <button class="cricket-game-btn">
+        <i class="fas fa-cricket"></i> Quick Match
+    </button>
+
+    <!-- Stats Ticker -->
+    <div class="stats-ticker">
+        <i class="fas fa-trophy" style="margin-right: 8px;"></i>
+        <span style="font-weight: bold;">International Centuries:</span> 82
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- Add this section to your HTML where you want the text analysis tool to appear -->
+<section class="text-analysis-section" id="text-analysis">
+    <div class="section-header">
+        <h2>Text <span>Analysis</span> Tool</h2>
+        <div class="underline"></div>
+    </div>
+    
+    <div class="text-analysis-container">
+        <div class="text-input-area">
+            <textarea id="textInput" placeholder="Enter your text here (more than 10,000 words)..."></textarea>
+            <button id="analyzeBtn">Analyze Text</button>
+        </div>
+        
+        <div class="analysis-results">
+            <div class="basic-stats">
+                <h3>Basic Statistics</h3>
+                <div id="basicStats"></div>
+            </div>
+            
+            <div class="pronouns-analysis">
+                <h3>Pronouns Count</h3>
+                <div id="pronounsStats"></div>
+            </div>
+            
+            <div class="prepositions-analysis">
+                <h3>Prepositions Count</h3>
+                <div id="prepositionsStats"></div>
+            </div>
+            
+            <div class="articles-analysis">
+                <h3>Articles Count</h3>
+                <div id="articlesStats"></div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
